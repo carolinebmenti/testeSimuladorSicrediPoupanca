@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.br.sicredi'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    // https://mvnrepository.com/artifact/org.easetech/easytest-core
+    implementation 'org.easetech:easytest-core:1.4.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'org.hamcrest:hamcrest:2.1'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'io.rest-assured:rest-assured:4.3.0'
+    testImplementation 'io.rest-assured:json-path:4.3.0'
+    testImplementation 'io.rest-assured:xml-path:4.3.0'
+    testImplementation 'io.rest-assured:json-schema-validator:4.3.0'
+}

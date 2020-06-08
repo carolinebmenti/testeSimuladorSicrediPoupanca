@@ -1,0 +1,16 @@
+ServiceTests/core/BaseTest.java
+ ServiceTests.core.BaseTest
+UITests/pages/SimuladorPoupancaResultsPage.java
+ UITests.pages.SimuladorPoupancaResultsPage
+ServiceTests/tests/SimuladorPoupancaServiceTest.java
+ ServiceTests.tests.SimuladorPoupancaServiceTest
+UITests/pages/SimuladorPoupancaHomePage.java
+ UITests.pages.SimuladorPoupancaHomePage
+UITests/tests/SimuladorPoupancaUITest.java
+ UITests.tests.SimuladorPoupancaUITest
+UITests/suporte/Web.java
+ UITests.suporte.Web
+ServiceTests/core/Constantes.java
+ ServiceTests.core.Constantes
+UITests/pages/BasePage.java
+ UITests.pages.BasePage
